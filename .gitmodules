@@ -1,0 +1,42 @@
+[submodule "ref/ssmessagesviewcontroller"]
+	path = ref/ssmessagesviewcontroller
+	url = https://github.com/soffes/ssmessagesviewcontroller.git
+[submodule "ref/UIBubbleTableView"]
+	path = ref/UIBubbleTableView
+	url = https://github.com/AlexBarinov/UIBubbleTableView.git
+[submodule "ref/SPHChatBubble"]
+	path = ref/SPHChatBubble
+	url = https://github.com/sibahota059/SPHChatBubble.git
+[submodule "ref/StyledChatDemo"]
+	path = ref/StyledChatDemo
+	url = https://github.com/xxhp/StyledChatDemo.git
+[submodule "ref/MessagesTableViewController"]
+	path = ref/MessagesTableViewController
+	url = https://github.com/jessesquires/MessagesTableViewController.git
+[submodule "ref/AcaniChat"]
+	path = ref/AcaniChat
+	url = https://github.com/acani/AcaniChat.git
+[submodule "ref/PBEmojiLabel"]
+	path = ref/PBEmojiLabel
+	url = https://github.com/nerdishbynature/PBEmojiLabel.git
+[submodule "ref/BubbleThingie"]
+	path = ref/BubbleThingie
+	url = https://github.com/tkirby/BubbleThingie.git
+[submodule "ref/CBEmotionView"]
+	path = ref/CBEmotionView
+	url = https://github.com/6david9/CBEmotionView.git
+[submodule "ref/ChatMessageTableViewController"]
+	path = ref/ChatMessageTableViewController
+	url = https://github.com/EvoRobin/ChatMessageTableViewController.git
+[submodule "ref/FastTextView"]
+	path = ref/FastTextView
+	url = https://github.com/gfthr/FastTextView.git
+[submodule "ref/WUEmoticonsKeyboard"]
+	path = ref/WUEmoticonsKeyboard
+	url = https://github.com/YuAo/WUEmoticonsKeyboard.git
+[submodule "ref/TSEmojiView"]
+	path = ref/TSEmojiView
+	url = https://github.com/fly2wind/TSEmojiView.git
+[submodule "ref/TQRichTextView"]
+	path = ref/TQRichTextView
+	url = https://github.com/TinyQ/TQRichTextView.git
