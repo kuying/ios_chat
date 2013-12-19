@@ -23,9 +23,6 @@
 
 - (void)viewDidLoad
 {
-//    test
-    __unused MoEmojiInputToolbar *newBar = [[MoEmojiInputToolbar alloc]initWithFrame:CGRectZero];
-    
     self.delegate = self;
     self.dataSource = self;
     [super viewDidLoad];
@@ -63,6 +60,12 @@
                     [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-woz" croppedToCircle:YES], kSubtitleWoz,
                     [JSAvatarImageFactory avatarImageNamed:@"demo-avatar-cook" croppedToCircle:YES], kSubtitleCook,
                     nil];
+    
+    
+    //    test
+    __unused MoEmojiInputToolbar *newBar = [[MoEmojiInputToolbar alloc]initWithFrame:CGRectMake(0, 430, 320, 50)];
+    [self.view addSubview:newBar];
+
     
     //    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFastForward
     //                                                                                           target:self
