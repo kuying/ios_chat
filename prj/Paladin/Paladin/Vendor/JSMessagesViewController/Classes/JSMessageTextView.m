@@ -178,10 +178,14 @@
         
         [self.placeHolderTextColor set];
         
-        [self.placeHolder drawInRect:placeHolderRect
-                            withFont:self.font
-                       lineBreakMode:NSLineBreakByTruncatingTail
-                           alignment:self.textAlignment];
+        NSMutableParagraphStyle *textStyle = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
+        textStyle.lineBreakMode = NSLineBreakByTruncatingTail;
+        textStyle.alignment = self.textAlignment;
+        
+        [self.placeHolder drawWithRect:placeHolderRect
+                               options:NSStringDrawingUsesLineFragmentOrigin
+                            attributes:@{NSFontAttributeName:self.font, NSParagraphStyleAttributeName:textStyle}
+                               context:nil];
     }
 }
 

@@ -10,9 +10,6 @@
 [submodule "ref/StyledChatDemo"]
 	path = ref/StyledChatDemo
 	url = https://github.com/xxhp/StyledChatDemo.git
-[submodule "ref/MessagesTableViewController"]
-	path = ref/MessagesTableViewController
-	url = https://github.com/jessesquires/MessagesTableViewController.git
 [submodule "ref/AcaniChat"]
 	path = ref/AcaniChat
 	url = https://github.com/acani/AcaniChat.git

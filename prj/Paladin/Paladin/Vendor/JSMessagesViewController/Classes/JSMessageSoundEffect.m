@@ -13,7 +13,7 @@
 //
 
 #import "JSMessageSoundEffect.h"
-#import <JSQSystemSoundPlayer/JSQSystemSoundPlayer.h>
+#import "JSQSystemSoundPlayer.h"
 
 static NSString * const kJSMessageReceived = @"message-received";
 static NSString * const kJSMessageSent = @"message-sent";
