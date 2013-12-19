@@ -7,6 +7,7 @@
 //
 
 #import "MoViewController.h"
+#import "MoEmojiInputToolbar.h"
 
 #define kSubtitleJobs @"Jobs"
 #define kSubtitleWoz @"Steve Wozniak"
@@ -22,6 +23,9 @@
 
 - (void)viewDidLoad
 {
+//    test
+    __unused MoEmojiInputToolbar *newBar = [[MoEmojiInputToolbar alloc]initWithFrame:CGRectZero];
+    
     self.delegate = self;
     self.dataSource = self;
     [super viewDidLoad];

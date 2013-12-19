@@ -78,6 +78,8 @@
 		304034E31862C47D0034F080 /* message-received.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 304034AB1862C47D0034F080 /* message-received.aiff */; };
 		304034E41862C47D0034F080 /* message-sent.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 304034AC1862C47D0034F080 /* message-sent.aiff */; };
 		304034E91862C5280034F080 /* JSQSystemSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 304034E81862C5280034F080 /* JSQSystemSoundPlayer.m */; };
+		304034F11862F6AB0034F080 /* MoEmojiInputToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 304034F01862F6AB0034F080 /* MoEmojiInputToolbar.m */; };
+		304034F318631B4C0034F080 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 304034F218631B4C0034F080 /* emoji.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +182,9 @@
 		304034AC1862C47D0034F080 /* message-sent.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "message-sent.aiff"; sourceTree = "<group>"; };
 		304034E71862C5280034F080 /* JSQSystemSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQSystemSoundPlayer.h; sourceTree = "<group>"; };
 		304034E81862C5280034F080 /* JSQSystemSoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQSystemSoundPlayer.m; sourceTree = "<group>"; };
+		304034EF1862F6AB0034F080 /* MoEmojiInputToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoEmojiInputToolbar.h; sourceTree = "<group>"; };
+		304034F01862F6AB0034F080 /* MoEmojiInputToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoEmojiInputToolbar.m; sourceTree = "<group>"; };
+		304034F218631B4C0034F080 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +289,7 @@
 		3040345A1862C4580034F080 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				304034EA1862F5D00034F080 /* Libs */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -485,6 +491,24 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		304034EA1862F5D00034F080 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				304034EE1862F6870034F080 /* Emoji */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		304034EE1862F6870034F080 /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				304034F218631B4C0034F080 /* emoji.json */,
+				304034EF1862F6AB0034F080 /* MoEmojiInputToolbar.h */,
+				304034F01862F6AB0034F080 /* MoEmojiInputToolbar.m */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -584,6 +608,7 @@
 				304034BA1862C47D0034F080 /* avatar-placeholder@2x.png in Resources */,
 				3040343E1862B5EC0034F080 /* Images.xcassets in Resources */,
 				304034CF1862C47D0034F080 /* bubble-stroked-tailless.png in Resources */,
+				304034F318631B4C0034F080 /* emoji.json in Resources */,
 				304034D21862C47D0034F080 /* bubble-stroked@2x.png in Resources */,
 				304034D31862C47D0034F080 /* bubble-tailless.png in Resources */,
 				304034301862B5EC0034F080 /* InfoPlist.strings in Resources */,
@@ -632,6 +657,7 @@
 				304034AE1862C47D0034F080 /* UIColor+JSMessagesView.m in Sources */,
 				304034361862B5EC0034F080 /* MoAppDelegate.m in Sources */,
 				304034B01862C47D0034F080 /* JSAvatarImageFactory.m in Sources */,
+				304034F11862F6AB0034F080 /* MoEmojiInputToolbar.m in Sources */,
 				304034B31862C47D0034F080 /* JSBubbleView.m in Sources */,
 				304034B11862C47D0034F080 /* JSBubbleImageViewFactory.m in Sources */,
 				304034B81862C47D0034F080 /* JSMessageTextView.m in Sources */,
